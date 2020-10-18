@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profileback"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/profilecurve_admin"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/prfoilecarve"
+            app:layout_constraintBottom_toTopOf="@+id/line_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileimage_admin"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/profilephoto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+
+    <TextView
+        android:id="@+id/line_name"
+        android:layout_width="10dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/geen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profileimage_admin" />
+
+        <TextView
+            android:id="@+id/profile_name_admin"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/profile_circle"
+            android:fontFamily="@font/brandon_medium"
+            android:gravity="center"
+            android:text="حسن رضا "
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line_name" />
+
+    <TextView
+        android:id="@+id/line_year"
+        android:layout_width="10dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/geen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profile_name_admin" />
+
+        <TextView
+            android:id="@+id/profile_year_admin"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/profile_circle"
+            android:fontFamily="@font/brandon_medium"
+            android:gravity="center"
+            android:text="6"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line_year" />
+
+    <TextView
+        android:id="@+id/line_point"
+        android:layout_width="10dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/geen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profile_year_admin" />
+
+        <TextView
+            android:id="@+id/profile_phone_admin"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/profile_circle"
+            android:fontFamily="@font/brandon_medium"
+            android:gravity="center"
+            android:text="25"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line_point" />
+
+
+
+        <Button
+            android:id="@+id/profile_btn_log_out_admin"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_outline"
+            android:drawableEnd="@drawable/ic_exit_to_app_black_24dp"
+            android:fontFamily="@font/brandon_medium"
+            android:paddingEnd="16dp"
+            android:text="تسجيل الخروج"
+            android:textColor="@color/border_color"
+            android:textSize="22sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profile_phone_admin" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

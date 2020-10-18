@@ -1,0 +1,651 @@
+<resources>
+    <string name="app_name">XlabsAdmin</string>
+    <string name="title_activity_xlab">XlabActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="menu_requests">Requests</string>
+
+
+    <string-array name="spinner_unit">
+        <item>الوحده الاولي</item>
+        <item>الوحده الثانيه</item>
+        <item>الوحده الثالثه</item>
+        <item>الوحده الرابعه</item>
+    </string-array>
+
+    <string-array name="qu_unit_one">
+        <item>تقاس الكتلة بوحدة </item>
+        <item>يقاس الوزن بوحدة </item>
+        <item>ماهو الميزان المستخدم في قياس الكتله </item>
+        <item>ماهو الميزان المسنخدم في قياس الوزن </item>
+        <item>.......مقدار ثابت لايتغير بتغير المكان </item>
+        <item>يتوقف وزن الجسم علي... </item>
+        <item>....... هو مقدار ما يحتوية الجسم من مادة </item>
+        <item> ....... هو قوة جذب الارض للجسم</item>
+        <item>....... هو وحدة قياس الكتلة</item>
+        <item> ....... هو وحدة قياس الوزن</item>
+        <item>جسم كتلته على سطح الارض 6 كيلوجرام ، كم وزنه على سطح الأرض </item>
+        <item>جسم كتلته على سطح الارض 6 كيلوجرام ، كم وزنه على سطح القمر</item>
+        <item>جسم وزنة 20 نيوتن على سطح الارض تكون كتلته تساوي</item>
+        <item> جسم كتلته 30 كيلوجرام على سطح الارض، كتلته على سطح القمر </item>
+        <item> جسم كتلته 30 كيلوجرام على سطح الارض، وزنه على سطح القمر</item>
+
+    </string-array>
+    <string-array name="ans_unit_one">
+        <item>الكيلو جرام </item>
+        <item> النيوتن</item>
+        <item>المتر </item>
+        <item>السنتيمتر </item>
+        <item>المتر </item>
+        <item>الطن </item>
+        <item>النيوتن </item>
+        <item>الجرام </item>
+        <item>الميزان الذنبركى </item>
+        <item>الميزان ذو الكفتين </item>
+        <item>الميزان الحرارى </item>
+        <item>الترمومتر</item>
+        <item>الميزان ذو الكفتين</item>
+        <item>الميزان الرقمى </item>
+        <item>الميزان الذنبركى</item>
+        <item>الترمومتر</item>
+        <item>الكتله</item>
+        <item>الوزن</item>
+        <item>الحجم</item>
+        <item>المساحة</item>
+        <item>كتلة الجسم</item>
+        <item>الكوكب الموجود علية الجسم</item>
+        <item>بعد الجسم عن مركز الكوكب</item>
+        <item>جميع ما سبق</item>
+        <item>الكتله</item>
+        <item>الوزن</item>
+        <item>النيوتن</item>
+        <item>الجسم</item>
+        <item>الكتله</item>
+        <item>الوزن</item>
+        <item>النيوتن</item>
+        <item>الجسم</item>
+        <item>الكتله</item>
+        <item>الوزن</item>
+        <item>النيوتن</item>
+        <item>الكيلوجرام</item>
+        <item>الكتله</item>
+        <item>الوزن</item>
+        <item>النيوتن</item>
+        <item>الجسم</item>
+        <item>60 نيوتن</item>
+        <item>60 جرام</item>
+        <item>40 نيوتن</item>
+        <item>50 نيوتن</item>
+        <item>60 نيوتن</item>
+        <item>50 نيوتن</item>
+        <item>30 نيوتن</item>
+        <item>10 نيوتن</item>
+        <item>10 كيلوجرام</item>
+        <item>20 كيلوجرام</item>
+        <item>200 كيلوجرام</item>
+        <item>2 كيلوجرام</item>
+        <item>60 كيلو جرام</item>
+        <item>300 كيلو جرام</item>
+        <item>30 كيلو جرام</item>
+        <item>10 نيوتن</item>
+        <item>50 نيوتن</item>
+        <item>100 نيوتن</item>
+        <item>150 نيوتن</item>
+        <item>200 نيوتن</item>
+
+
+    </string-array>
+    <string-array name="co_ans_unit_one">
+
+        <item>الكيلو جرام </item>
+        <item>النيوتن </item>
+        <item>الميزان ذو الكفتين </item>
+        <item>الميزان الذنبركى</item>
+        <item>الكتلة</item>
+        <item>جميع ما سبق</item>
+        <item>الكتلة</item>
+        <item>الوزن</item>
+        <item>الكيلوجرام</item>
+        <item>النيوتن</item>
+        <item>60 نيوتن</item>
+        <item>10 نيوتن</item>
+        <item>2 كيلوجرام</item>
+        <item>30 كيلو جرام</item>
+        <item>50 نيوتن</item>
+
+
+    </string-array>
+    <string-array name="qu_unit_two">
+        <item>تقاس درجة الحرارة باستخدام .......... </item>
+        <item> ............. يستخدم فى قياس درجة حرارة السوائل المختلفة </item>
+        <item>............... يستخدم فى قياس درجة حرارة جسم الانسان </item>
+        <item> .... من المواد جيدة التوصيل للحرارة </item>
+        <item> .... من المواد رديئة التوصيل للحرارة</item>
+        <item> ............ هى التى تسمح بسريان الحرارة خلالها </item>
+        <item>............ هى المواد التى لا تسمح بريان الحرارة خلالها </item>
+        <item>الترمومتر هو جهاز يستخم فى قياس درجات الحرارة</item>
+        <item>يستحدم الترمومتر الطبى فى قياس درجة حرارة السوائل المختلفة </item>
+        <item>تدريج الترمومتر المئوى يبدأ من 35 حتى 42 درجة مئوية</item>
+        <item>الألمونيوم من المواد رديئة التوصيل للحرارة</item>
+        <item> الخشب من المواد جيدة التوصيل للحرارة </item>
+        <item>جميع المعادن رديئة التوصيل للحرارة</item>
+        <item> النحاس يوصل للحرارة أسرع من الألمونيوم  </item>
+        <item>من المواد جيدة التوصيل للحرارة ......</item>
+        <item> من أستخدامات المواد جيدة التوصيل للحرارة .....</item>
+        <item> من استخدامات المواد رديئة التوصيل للحرارة</item>
+        <item>من المواد رديئة التوصيل للحرارة ...</item>
+        <item> يبدأ تدرج الترمومتر الطبى من ...</item>
+        <item>ينتهى تدريج الترمومتر الطبى عند ..</item>
+        <item> يوجد اختناق فى الترمومتر الطبى</item>
+        <item> يوجد نوعان من الترمومتر </item>
+        <item> يتجمد الماء عند درجة حرارة ......</item>
+        <item>يغلى الماء عند درجة حرارة ....</item>
+        <item> أداة تستخدم فى قياس درجة حرارة المواد السائلة ...</item>
+        <item> أداة تستخدم فى قياس درجة حرارة الأنسان ....</item>
+        <item>ما هو السائل المستخدم فى صناعة الترمومتر .....</item>
+
+    </string-array>
+    <string-array name="ans_unit_two">
+        <item>الترمومتر</item>
+        <item>الميزان</item>
+        <item>الكيلو</item>
+        <item>درجة مئوية</item>
+        <item>الترممومتر المئوى</item>
+        <item>الترمومتر الطبى</item>
+        <item>الميزان ذو الكفتين</item>
+        <item>الميزان الزنبركى</item>
+        <item>الترممومتر المئوى</item>
+        <item>الترمومتر الطبى</item>
+        <item>الميزان ذو الكفتين</item>
+        <item>الميزان الزنبركى</item>
+        <item>الحديد</item>
+        <item>النحاس</item>
+        <item>الالمونيوم</item>
+        <item>جميع ما سبق</item>
+        <item>الخشب</item>
+        <item>الزجاج</item>
+        <item>الكرتون</item>
+        <item>جميع ما سبق</item>
+        <item>مواد جيدة التوصيل للحرارة</item>
+        <item>مواد رديئة التوصيل للحرارة</item>
+        <item> </item>
+        <item> </item>
+        <item>مواد جيدة التوصيل للحرارة</item>
+        <item>مواد رديئة التوصيل للحرارة</item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item> </item>
+        <item> </item>
+        <item>النحاس</item>
+        <item>الخشب</item>
+        <item>البلاستيك</item>
+        <item>الكرتون</item>
+        <item>الغلايات</item>
+        <item>مقبض المكواه الكهربية</item>
+        <item>مقبض أوانى الطهى</item>
+        <item>الخشب</item>
+        <item>الغلايات</item>
+        <item>أوانى الطهى</item>
+        <item>مقبض المكواه الكهربية</item>
+        <item>براد الشاى</item>
+        <item>الخشب</item>
+        <item>الألمونيوم</item>
+        <item>الحديد</item>
+        <item>النحاس</item>
+        <item>20 درجة مئوية</item>
+        <item>25 درجة مئوية</item>
+        <item>30 درجة مئوية</item>
+        <item>35 درجة مئوية</item>
+        <item>37 درجة مئوية</item>
+        <item>39 درجة مئوية</item>
+        <item>40 درجة مئوية</item>
+        <item>42 درجة مئوية</item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item> </item>
+        <item> </item>
+        <item>5 درجة مئوية</item>
+        <item>3 درجة مئوية</item>
+        <item>1 درجة مئوية</item>
+        <item>0 درجة مئوية</item>
+        <item>100 درجة مئوية</item>
+        <item>1000 درجة مئوية</item>
+        <item>10000 درجة مئوية</item>
+        <item>10 درجة مئوية</item>
+        <item>الترمومتر الطبى</item>
+        <item>الترمومتر المئوى</item>
+        <item>الزئبق</item>
+        <item> </item>
+        <item>الترمومتر الطبى</item>
+        <item>الترمومتر المئوى</item>
+        <item>الزئبق</item>
+        <item> </item>
+        <item>الماء</item>
+        <item>الزئبق</item>
+        <item>النيتروجين السائل</item>
+        <item> </item>
+
+    </string-array>
+    <string-array name="co_ans_unit_two">
+
+        <item>الترمومتر</item>
+        <item>الترممومتر المئوى</item>
+        <item>الترمومتر الطبى</item>
+        <item>جميع ما سبق</item>
+        <item>جميع ما سبق</item>
+        <item>مواد جيدة التوصيل للحرارة</item>
+        <item>مواد رديئة التوصيل للحرارة</item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item>خطأ</item>
+        <item>خطأ</item>
+        <item>خطأ</item>
+        <item>صح</item>
+        <item>النحاس</item>
+        <item>الغلايات</item>
+        <item>مقبض المكواه الكهربية</item>
+        <item>الخشب</item>
+        <item>35 درجة مئوية</item>
+        <item>42 درجة مئوية</item>
+        <item>صح</item>
+        <item>صح</item>
+        <item>0 درجة مئوية</item>
+        <item>100 درجة مئوية</item>
+        <item>الترمومتر المئوى</item>
+        <item>الترمومتر الطبى</item>
+        <item>الزئبق</item>
+
+    </string-array>
+    <string-array name="qu_unit_three">
+        <item>يشكل غاز النيتروجين ..... من الغلاف الجوى</item>
+        <item> يكون النيتروجين أهم جزء فى ...</item>
+        <item>من خصائص غاز النيتروجين أنه .... </item>
+        <item>البقوليات مثل نبات البرسيم تستفيد من نيتروجين الهواء الجوى </item>
+        <item> يسمى النيتروجين بالآزوت ومعناها عديم الحياة</item>
+        <item>غاز النيتروجين عديم اللون والطعم والرائحة وسهل الذوبان فى الماء </item>
+        <item>يحضر غاز الأكسجين من تفكك محلول فوق أكسيد الهيدروجين فى وجود غاز ثانى أكسيد الكربون </item>
+        <item>تقل كتلة المواد بعد اتحادها بغاز الأكسجين</item>
+        <item>يتكون غاز الأوزون من ذرتين ويرمز له بالرمز O3</item>
+        <item> تتآكل المواد المصنوعه من الحديد عند تعرضها للرطوبة</item>
+        <item> يتفاعل غاز الاكسجين مع شريط الماغنسيوم المشتعل وتتكون مادة بيضاء اللون</item>
+        <item> ينتج غاز الأكسجين بوفرة من النباتات الخضراء أثناء عملية البناء الضوئى</item>
+        <item>من خواص غاز الأكسجين أنه ...</item>
+        <item> فى عملية البناء الضوئى يمتص النبات غاز .... </item>
+        <item>فى عملية البناء الضوئى ينتج غاز ........</item>
+        <item>فى عملية التنفس يستهلك غاز .......</item>
+        <item> فى عملية التنفس ينتج غاز</item>
+        <item> نسبة غاز ثانى أكسيد الكربون فى الغلاف الجوى هى ...</item>
+        <item> يرمز لغاز ثانى أكسيد الكربون بالرمز .....</item>
+        <item> تثبت بكتيريا العقد الجزرية فى النباتات البقولية مثل الفول والبرسيم أكسجين الهواء الجوى</item>
+        <item> يحتل غاز الأكسجين فى الهواء الجوى نسبة .....</item>
+        <item> يستخدم ماء الجير الرائق فى الكشف عن غاز .....</item>
+        <item>عندما يشتعل الخشب فينتج مع الأحتراق غاز .....</item>
+
+    </string-array>
+    <string-array name="ans_unit_three">
+        <item>21 %</item>
+        <item>12 %</item>
+        <item>87 %</item>
+        <item>78 % </item>
+        <item>الدهون </item>
+        <item>الماء</item>
+        <item>البروتينات </item>
+        <item>الكربوهيدرات </item>
+        <item>يدخل فى تركيب الكيبوهيدرات </item>
+        <item>يشتعل </item>
+        <item>يدخل فى عملية التنفس</item>
+        <item>لا يساعد على الأشتعال</item>
+        <item>صح</item>
+        <item>خطأ </item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ </item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ </item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ </item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ </item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ </item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ </item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ </item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ </item>
+        <item> </item>
+        <item> </item>
+        <item>له لون وطعم ورائحة</item>
+        <item>أثقل من الهواء</item>
+        <item>لا يتفاعل مع شريط الماغنسيوم</item>
+        <item>يشتعل</item>
+        <item>الاكسجين</item>
+        <item>الهيدروجين</item>
+        <item>ثانى أكيسيد الماغنسيوم</item>
+        <item>ثانى أكسيد الكربون</item>
+        <item>الأكسجين</item>
+        <item>النيتروجين</item>
+        <item>الهيدروجين</item>
+        <item>ثانى أكسيد الكربون</item>
+        <item>الأكسجين</item>
+        <item>النيتروجين</item>
+        <item>ثانى أكسيد الكربون</item>
+        <item>الهيدروجين</item>
+        <item>ثانى أكسيد الكربون</item>
+        <item>الأكسجين</item>
+        <item>النيتروجين</item>
+        <item>الهيدروجين</item>
+        <item>.05  %</item>
+        <item>.04 %</item>
+        <item>.03 %</item>
+        <item>.02 %</item>
+        <item>H2O</item>
+        <item>CO2</item>
+        <item>H2</item>
+        <item>O2</item>
+        <item>صح</item>
+        <item>خطأ </item>
+        <item> </item>
+        <item> </item>
+        <item>50 %</item>
+        <item>30 %</item>
+        <item>31 %</item>
+        <item>21 %</item>
+        <item>الأكسجين</item>
+        <item>النيتروجين</item>
+        <item>ثاني اكسيد الكربون</item>
+        <item>الهيدروجين</item>
+        <item>الأكسجين</item>
+        <item>النيتروجين</item>
+        <item>ثاني اكسيد الكربون</item>
+        <item>الهيدروجين</item>
+
+
+    </string-array>
+    <string-array name="co_ans_unit_three">
+
+        <item>78 % </item>
+        <item>البروتينات </item>
+        <item>يدخل فى تركيب الكيبوهيدرات </item>
+        <item>صح</item>
+        <item>صح</item>
+        <item>خطأ </item>
+        <item>خطأ </item>
+        <item>خطأ </item>
+        <item>خطأ </item>
+        <item>صح</item>
+        <item>صح</item>
+        <item>صح</item>
+        <item>أثقل من الهواء</item>
+        <item>ثانى أكسيد الكربون</item>
+        <item>الأكسجين</item>
+        <item>الأكسجين</item>
+        <item>ثانى أكسيد الكربون</item>
+        <item>.03 %</item>
+        <item>CO2</item>
+        <item>خطأ </item>
+        <item>21 %</item>
+        <item>ثاني اكسيد الكربون</item>
+        <item>ثاني اكسيد الكربون</item>
+
+
+    </string-array>
+    <string-array name="qu_unit_four">
+        <item>يبلغ عدد الأعصاب المخية ..... زوجاً من الأعصاب </item>
+        <item>المخيخ مسئول عن .... </item>
+        <item>من مكونات جسم الخلية العصبية ... </item>
+        <item>يتحكم ..... فى الأفعال المنعكسة </item>
+        <item> ...... هى الأستجابة التلقائية من الجسم نحو المؤثرات المختلفة</item>
+        <item>جزء من الجهاز العصبى مسئول عن الأفعال المنعكسة ..... </item>
+        <item>وحدة بناء الجهاز العصبى هى الخلية العصبية </item>
+        <item> عضو يصل المخ بالحبل الشوكى ومسئول عن العمليات اللاأرادية ....</item>
+        <item>عضو يتكون من مادة رمادية داخلية على شكل حرف H  يحيط بها كادة بيضاء .....</item>
+        <item>المخيخ يحفظ توازن الجسم أثناء الحرك</item>
+        <item>المفاصل تتحكم فى العمليات اللاأرادية </item>
+        <item>القفص الصدرى يحمى القلب والرئتين ولا يساعد فى عملية التنفس</item>
+        <item>النصفان الكرويان تسمح بالحركة فيما بين العظام</item>
+        <item>يوجد النخاع المستطيل فى جسم الأنسان أعلى الحبل الشوكى</item>
+        <item> يوجد المخيخ فى جسم الأنسان بين النصفان الكرويان فى الجهة الخلفية</item>
+        <item> ......... يحاط بغلاف دهنى </item>
+        <item>الفعل المنعكس يتم فى ...... </item>
+        <item>المفصل هو موضع أتصال ..... </item>
+        <item>مفاصل الجمجمة ..... </item>
+        <item>مفصل الركبة عديم الحركة</item>
+        <item>مفصل الكتف واسع الحركة</item>
+        <item>المفاصل تربط العظام بالعضلات</item>
+        <item>يتكون هيكل الطرف العلوى من العضد وعظمتا الساعد وعظام اليد</item>
+        <item>مفصل المرفق واسع الحركة</item>
+        <item>موضع أتصال طرفى عظمتين ....</item>
+        <item>الهيكل الذى يضم الطرفين العلويين والطرفين السفليين ....</item>
+        <item> محور الهيكل العظمى فى جسم الأنسان ...</item>
+        <item>الهيكل الذى يضم الجمجة والعمود الفقرى والقفص الصدى ....</item>
+        <item>الهيكل المحورى يتكون من </item>
+        <item> المادة الرمادية بالحبل الشوكى على شكل حرف .....</item>
+
+    </string-array>
+    <string-array name="ans_unit_four">
+        <item>31</item>
+        <item> 21</item>
+        <item>12 </item>
+        <item> </item>
+        <item>عمليات التفكير </item>
+        <item>توازن الجسم </item>
+        <item>الأفعال المنعكسة </item>
+        <item>الجرام </item>
+        <item>الأوعية الدموية </item>
+        <item>غلاف دهنى </item>
+        <item>التفرعات الشجيرية </item>
+        <item> </item>
+        <item>المخيخ</item>
+        <item>النصفان الكرويان </item>
+        <item>الحبل الشوكى</item>
+        <item> </item>
+        <item>الحبل الشوكى</item>
+        <item>الفعل المنعكس</item>
+        <item>الخلية العصبية</item>
+        <item> </item>
+        <item>الحبل الشوكى</item>
+        <item>النخاع المستطيل</item>
+        <item>المخيخ</item>
+        <item>جميع ما سبق</item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item> </item>
+        <item> </item>
+        <item>النخاع المستطيل</item>
+        <item>الحبل الشوكى</item>
+        <item>المخيخ</item>
+        <item> </item>
+        <item>النخاع المستطيل</item>
+        <item>الحبل الشوكى</item>
+        <item>المخيخ</item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item> </item>
+        <item> </item>
+        <item>المخيخ</item>
+        <item> الحبل الشوكى</item>
+        <item>محور الخلية العصبية </item>
+        <item> </item>
+        <item>الحبل الشوكى </item>
+        <item>النصفان الكرويان</item>
+        <item>النخاع المستطيل</item>
+        <item>الجرام </item>
+        <item>عضلتين </item>
+        <item>طرفى عظمتين </item>
+        <item>العضلة بالعظم </item>
+        <item> </item>
+        <item>محدودة الحركة</item>
+        <item>واسعة الحركة </item>
+        <item>عديمة الحركة</item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item> </item>
+        <item> </item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item> </item>
+        <item> </item>
+        <item>الهيكل المحورى</item>
+        <item>العمود الفقرى</item>
+        <item>الهيكل الطرفى</item>
+        <item>المفصل</item>
+        <item>الهيكل المحورى</item>
+        <item>العمود الفقرى</item>
+        <item>الهيكل الطرفى</item>
+        <item>المفصل</item>
+        <item>الهيكل المحورى</item>
+        <item>العمود الفقرى</item>
+        <item>الهيكل الطرفى</item>
+        <item>المفصل</item>
+        <item>الهيكل المحورى</item>
+        <item>العمود الفقرى</item>
+        <item>الهيكل الطرفى</item>
+        <item>المفصل</item>
+        <item>الجمجمة</item>
+        <item>العمود الفقرى</item>
+        <item>القفص الصدرى</item>
+        <item>جميع ما سبق</item>
+        <item>H</item>
+        <item>F</item>
+        <item>A</item>
+        <item>B</item>
+
+
+    </string-array>
+    <string-array name="co_ans_unit_four">
+
+        <item> 21</item>
+        <item>توازن الجسم </item>
+        <item>التفرعات الشجيرية </item>
+        <item>الحبل الشوكى</item>
+        <item>الفعل المنعكس</item>
+        <item>الحبل الشوكى</item>
+        <item>صح</item>
+        <item>النخاع المستطيل</item>
+        <item>الحبل الشوكى</item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item>خطأ</item>
+        <item>خطأ</item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item>محور الخلية العصبية </item>
+        <item>الحبل الشوكى </item>
+        <item>طرفى عظمتين </item>
+        <item>عديمة الحركة</item>
+        <item>خطأ</item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item>صح</item>
+        <item>خطأ</item>
+        <item>المفصل</item>
+        <item>الهيكل الطرفى</item>
+        <item>العمود الفقرى</item>
+        <item>الهيكل المحورى</item>
+        <item>جميع ما سبق</item>
+        <item>H</item>
+
+    </string-array>
+    <string name="title_activity_student2">Student2</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_leaderboard">Leaderboard</string>
+    <string name="menu_store">Store</string>
+    <string name="menu_profile">Profile</string>
+
+</resources>

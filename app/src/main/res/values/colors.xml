@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0BA8AD</color>
+    <color name="colorPrimaryDark">#0BA8AD</color>
+    <color name="colorAccent">#687184</color>
+
+    <color name="white">#ffffff</color>
+    <color name="pink">#723b72</color>
+    <color name="pink_edit">#f2f2f2</color>
+    <color name="geen">#0ba8ad</color>
+    <color name="pom">#683d6f</color>
+
+
+    <color name="mainColor">#101E3D</color>
+    <color name="seconderyColor">#F4BC1D</color>
+    <color name="thirdColor">#B6BAC3</color>
+    <color name="forthColor">#F0F0F0</color>
+    <color name="fifthColor">#B3B4B6</color>
+
+    <color name="input_edt_color">#687184</color>
+
+    <color name="light">#ffffff</color>
+
+
+    <color name="border_color">#AA333639</color>
+
+    <color name="colorTextPrimary">#ffffff</color>
+    <color name="colorTextSecondary">#A3FFFFFF</color>
+    <color name="colorBadge">#f4d415</color>
+</resources>
